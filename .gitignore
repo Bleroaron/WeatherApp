@@ -1,0 +1,54 @@
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Package.resolved
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.ipa
+*.apk
+
+# Bundle artifact
+*.xcarchive
+
+# Other
+.DS_Store
+*.swp
+*.lock
+*.xcuserstate
+DerivedData/
+*.hmap
+
+# Additional directories and files
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# Custom sensitive files
+Secrets.plist
+Config/*.json
+
